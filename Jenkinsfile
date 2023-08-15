@@ -28,7 +28,7 @@
                 echo "Deploying the code"
                 sh "docker-compose down"
                 sh "docker-compose up -d"
-                //sh "docker run -d -p 8000:8000 ashraf1980/django-notes-app:latest"
+                //sh "docker run -d -p 8000:8000 ashraf1980/django-notes-app:latest". Added
             }
         }
     }
